@@ -91,7 +91,7 @@ ls -1 "$directorio" | while read elemento; do
         nuevo_nombre="${prefijo}_${nombre_original}"
 
         echo "Renombrando: $nombre_original a  $nuevo_nombre"
-	mv "$ruta_completa" "$directorio/$nuevo_nombre"
+		mv "$ruta_completa" "$directorio/$nuevo_nombre"
 
     fi
 done
