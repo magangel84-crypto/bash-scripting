@@ -16,7 +16,7 @@ desc+="#"$'\n'
 
 echo "$desc"
 
-# Colores
+# Colores que se usan para diferentes mensajes que se envian al usuario por consola
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
